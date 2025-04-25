@@ -1,0 +1,105 @@
+/* General Button Styling */
+button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover Effects */
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Active Effects */
+  button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Disabled Button Styling */
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  /* Like Button Styling */
+  button.like {
+    background-color: #3b82f6; /* Blue */
+    color: white;
+  }
+  
+  button.like:hover {
+    background-color: #2563eb; /* Darker Blue */
+  }
+  
+  button.like:active {
+    background-color: #1d4ed8; /* Even Darker Blue */
+  }
+  
+  /* Dislike Button Styling */
+  button.dislike {
+    background-color: #ef4444; /* Red */
+    color: white;
+  }
+  
+  button.dislike:hover {
+    background-color: #dc2626; /* Darker Red */
+  }
+  
+  button.dislike:active {
+    background-color: #b91c1c; /* Even Darker Red */
+  }
+  
+  /* Subscribe Button Styling */
+  button.subscribe {
+    background-color: #10b981; /* Green */
+    color: white;
+  }
+  
+  button.subscribe:hover {
+    background-color: #059669; /* Darker Green */
+  }
+  
+  button.subscribe:active {
+    background-color: #047857; /* Even Darker Green */
+  }
+  
+  /* Share and Download Button Styling */
+  button.share,
+  button.download {
+    background-color: #fbbf24; /* Yellow */
+    color: white;
+  }
+  
+  button.share:hover,
+  button.download:hover {
+    background-color: #f59e0b; /* Darker Yellow */
+  }
+  
+  button.share:active,
+  button.download:active {
+    background-color: #d97706; 
+  }
+  
+  /* Add a cool glow effect on hover */
+  button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Adding icons inline to the buttons */
+  button i {
+    margin-right: 8px;
+  }
+  
